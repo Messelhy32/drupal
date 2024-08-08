@@ -1,0 +1,42 @@
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.Trash-*
+
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Drupal core, contrib modules, and themes
+/drupal/core/
+/drupal/modules/contrib/
+/drupal/themes/contrib/
+
+# Private files
+/drupal/sites/*/files/private/
+
+/drupal/sites/*/settings.php
+/drupal/sites/*/settings.local.php
+/drupal/sites/*/services.yml
+
+# Configuration sync directory
+/drupal/sites/*/files/config_*/
+
+/drupal/sites/*/files/tmp/
+
+/drupal/sites/*/files/backup_migrate/
+
+# Docker
+/docker-compose.override.yml
+/volumes/
+/logs/
