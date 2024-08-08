@@ -1,0 +1,7 @@
+name: "Event Management"
+type: module
+description: "A custom module that will assist the back-end users in managing events."
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:node
