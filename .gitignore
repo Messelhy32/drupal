@@ -14,8 +14,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # Composer dependencies
-/vendor/
-composer.lock
+/drupal/vendor/
+/drupal/composer.lock
+
+
 
 # Drupal core, contrib modules, and themes
 /drupal/core/
@@ -28,6 +30,7 @@ composer.lock
 /drupal/sites/*/settings.php
 /drupal/sites/*/settings.local.php
 /drupal/sites/*/services.yml
+
 
 # Configuration sync directory
 /drupal/sites/*/files/config_*/
